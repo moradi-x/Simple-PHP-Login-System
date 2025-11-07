@@ -50,5 +50,5 @@ Here are the main problems:
 ### ❌ 1. Hardcoded username & password  
 Inside `check.php`, credentials are written directly in code:
 ```php
-$user_name === "mohamad moradi" && $password === "MM13831383"
+$user_name === "mohamad moradi" && $password === "m1234"
 ```
