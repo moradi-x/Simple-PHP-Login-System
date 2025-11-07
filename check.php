@@ -6,7 +6,7 @@ $password = $_POST['password'];
 
 if (empty($user_name) || empty($password)) {
     header("location:./login.php");
-} elseif ($user_name === "mohamad moradi" and $password === "MM13831383") {
+} elseif ($user_name === "mohamad moradi" and $password === "m1234") {
     $_SESSION['admin'] = $user_name;
     $_SESSION['password'] = $password;
     header("location:/admin.php");
